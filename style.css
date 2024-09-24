@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+#board {
+  background-color: darkslategray;
+  border: 4px black solid;
+}
+
+#moving-board {
+  transition: transform 0.5s ease; /* Smooth transition for the move */
+}
